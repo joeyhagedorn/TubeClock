@@ -1,3 +1,5 @@
 (fp_lib_table
-  (lib (name TubeClock)(type KiCad)(uri /Users/kburzinski/Development/Embedded/ARM/libopencm3/projects/TubeClock/hardware/kicad_libs/TubeClock/TubeClock.pretty)(options "")(descr ""))
+  (version 7)
+  (lib (name "TubeClock")(type "KiCad")(uri "/Users/kburzinski/Development/Embedded/ARM/libopencm3/projects/TubeClock/hardware/kicad_libs/TubeClock/TubeClock.pretty")(options "")(descr ""))
+  (lib (name "Burroughs")(type "KiCad")(uri "/Users/hagedorn/Library/Mobile Documents/com~apple~CloudDocs/Electronics Projects/OSS Projects/TubeClock/hardware/displays/B5991-8442/Burroughs.pretty")(options "")(descr ""))
 )

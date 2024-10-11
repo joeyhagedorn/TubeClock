@@ -183,6 +183,7 @@
       <datasheet>http://www.onsemi.com/pub/Collateral/S3N-D.PDF</datasheet>
       <fields>
         <field name="Part Number">S3A</field>
+        <field name="Notes">Check Polarity! (bad silk)</field>
       </fields>
       <libsource lib="win" part="DIODE" description=""/>
       <sheetpath names="/TubeClock-PowerSupply/" tstamps="/5C7E1816/"/>
