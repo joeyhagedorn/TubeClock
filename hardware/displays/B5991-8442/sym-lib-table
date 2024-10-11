@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TubeClock")(type "KiCad")(uri "${KIPRJMOD}/../../kicad_libs/TubeClock/TubeClock.kicad_sym")(options "")(descr ""))
+  (lib (name "IN-12-rescue")(type "KiCad")(uri "${KIPRJMOD}/IN-12-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "B5991-rescue")(type "KiCad")(uri "${KIPRJMOD}/B5991-rescue.kicad_sym")(options "")(descr ""))
+)

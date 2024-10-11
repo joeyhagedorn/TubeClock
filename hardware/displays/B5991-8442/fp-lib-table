@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Burroughs")(type "KiCad")(uri "${KIPRJMOD}/Burroughs.pretty")(options "")(descr ""))
+  (lib (name "TubeClock")(type "KiCad")(uri "/Users/hagedorn/Library/Mobile Documents/com~apple~CloudDocs/Electronics Projects/OSS Projects/TubeClock/hardware/kicad_libs/TubeClock/TubeClock.pretty")(options "")(descr ""))
+  (lib (name "TouchPads")(type "KiCad")(uri "/Users/hagedorn/Library/Mobile Documents/com~apple~CloudDocs/Electronics Projects/OSS Projects/TubeClock/hardware/kicad_libs/TubeClock/TouchPads.pretty")(options "")(descr ""))
+)
