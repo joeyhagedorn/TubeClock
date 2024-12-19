@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.1,
-          "height": 2.0,
-          "width": 1.905
+          "drill": 0.0,
+          "height": 1.0,
+          "width": 1.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -109,11 +109,7 @@
         "via_dangling": "warning",
         "zones_intersect": "error"
       },
-      "rule_severitieslegacy_courtyards_overlap": true,
-      "rule_severitieslegacy_no_courtyard_defined": false,
       "rules": {
-        "allow_blind_buried_vias": false,
-        "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
@@ -130,11 +126,7 @@
         "min_track_width": 0.1524,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.508,
-        "solder_mask_clearance": 0.051,
-        "solder_mask_min_width": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
-        "solder_paste_clearance": 0.0,
-        "solder_paste_margin_ratio": -0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -184,9 +176,7 @@
         0.0,
         0.1524,
         0.2032,
-        0.2286,
         0.254,
-        0.3048,
         0.381,
         0.635,
         1.016,
@@ -237,8 +227,8 @@
           "drill": 0.508
         },
         {
-          "diameter": 1.27,
-          "drill": 0.762
+          "diameter": 2.794,
+          "drill": 1.651
         }
       ],
       "zones_allow_external_fillets": false
@@ -257,223 +247,12 @@
   "cvpcb": {
     "equivalence_files": []
   },
-  "erc": {
-    "erc_exclusions": [],
-    "meta": {
-      "version": 0
-    },
-    "pin_map": [
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        2,
-        2,
-        2,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        1,
-        0,
-        1,
-        2
-      ],
-      [
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        2,
-        1,
-        1,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        1,
-        2,
-        0,
-        0,
-        1,
-        0,
-        2,
-        2,
-        2,
-        2
-      ],
-      [
-        0,
-        2,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        2,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        1,
-        1,
-        0,
-        0,
-        1,
-        0,
-        2,
-        0,
-        0,
-        2
-      ],
-      [
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2
-      ]
-    ],
-    "rule_severities": {
-      "bus_definition_conflict": "error",
-      "bus_entry_needed": "error",
-      "bus_to_bus_conflict": "error",
-      "bus_to_net_conflict": "error",
-      "conflicting_netclasses": "error",
-      "different_unit_footprint": "error",
-      "different_unit_net": "error",
-      "duplicate_reference": "error",
-      "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
-      "extra_units": "error",
-      "global_label_dangling": "warning",
-      "hier_label_mismatch": "error",
-      "label_dangling": "error",
-      "lib_symbol_issues": "warning",
-      "missing_bidi_pin": "warning",
-      "missing_input_pin": "warning",
-      "missing_power_pin": "error",
-      "missing_unit": "warning",
-      "multiple_net_names": "warning",
-      "net_not_bus_member": "warning",
-      "no_connect_connected": "warning",
-      "no_connect_dangling": "warning",
-      "pin_not_connected": "error",
-      "pin_not_driven": "error",
-      "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
-      "similar_labels": "warning",
-      "simulation_model_issue": "ignore",
-      "unannotated": "error",
-      "unit_value_mismatch": "error",
-      "unresolved_variable": "error",
-      "wire_dangling": "error"
-    }
-  },
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "TubeClock.kicad_pro",
+    "filename": "TubeClock-2Layer.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -527,23 +306,6 @@
         "track_width": 0.254,
         "via_diameter": 0.635,
         "via_drill": 0.3175,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.1524,
-        "diff_pair_gap": 0.1524,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1524,
-        "line_style": 0,
-        "microvia_diameter": 0.508,
-        "microvia_drill": 0.254,
-        "name": "GPSAntenna",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.33528,
-        "via_diameter": 0.508,
-        "via_drill": 0.254,
         "wire_width": 6
       },
       {
@@ -747,6 +509,10 @@
       },
       {
         "netclass": "Default",
+        "pattern": "Net-(BZ1-Pad2)"
+      },
+      {
+        "netclass": "Default",
         "pattern": "Net-(C12-Pad1)"
       },
       {
@@ -771,6 +537,26 @@
       },
       {
         "netclass": "Default",
+        "pattern": "Net-(C35-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(C35-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(C36-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(C36-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(C38-Pad1)"
+      },
+      {
+        "netclass": "Default",
         "pattern": "Net-(C6-Pad1)"
       },
       {
@@ -784,6 +570,18 @@
       {
         "netclass": "Default",
         "pattern": "Net-(D5-Pad5)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J6-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J6-Pad3)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J6-Pad5)"
       },
       {
         "netclass": "Default",
@@ -823,6 +621,10 @@
       },
       {
         "netclass": "Default",
+        "pattern": "Net-(R12-Pad2)"
+      },
+      {
+        "netclass": "Default",
         "pattern": "Net-(R17-Pad2)"
       },
       {
@@ -831,7 +633,11 @@
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(R32-Pad2)"
+        "pattern": "Net-(R21-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(R30-Pad2)"
       },
       {
         "netclass": "Default",
@@ -839,7 +645,15 @@
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(R7-Pad2)"
+        "pattern": "Net-(R6-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(R9-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(SB10-Pad1)"
       },
       {
         "netclass": "Default",
@@ -855,7 +669,7 @@
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(SB8-Pad1)"
+        "pattern": "Net-(SB9-Pad1)"
       },
       {
         "netclass": "Default",
@@ -926,10 +740,6 @@
         "pattern": "GND"
       },
       {
-        "netclass": "12V",
-        "pattern": "Net-(BZ1-Pad2)"
-      },
-      {
         "netclass": "3V3",
         "pattern": "+3V3"
       },
@@ -940,46 +750,6 @@
       {
         "netclass": "3V3",
         "pattern": "Net-(BT1-Pad1)"
-      },
-      {
-        "netclass": "3V3",
-        "pattern": "Net-(J6-Pad1)"
-      },
-      {
-        "netclass": "3V3",
-        "pattern": "Net-(J6-Pad3)"
-      },
-      {
-        "netclass": "3V3",
-        "pattern": "Net-(J6-Pad5)"
-      },
-      {
-        "netclass": "3V3",
-        "pattern": "Net-(R21-Pad2)"
-      },
-      {
-        "netclass": "GPSAntenna",
-        "pattern": "Net-(C35-Pad1)"
-      },
-      {
-        "netclass": "GPSAntenna",
-        "pattern": "Net-(C35-Pad2)"
-      },
-      {
-        "netclass": "GPSAntenna",
-        "pattern": "Net-(C36-Pad1)"
-      },
-      {
-        "netclass": "GPSAntenna",
-        "pattern": "Net-(C36-Pad2)"
-      },
-      {
-        "netclass": "GPSAntenna",
-        "pattern": "Net-(C38-Pad1)"
-      },
-      {
-        "netclass": "GPSAntenna",
-        "pattern": "Net-(R30-Pad1)"
       },
       {
         "netclass": "HV",
@@ -1031,23 +801,15 @@
       },
       {
         "netclass": "Touchkey",
-        "pattern": "Net-(R12-Pad2)"
-      },
-      {
-        "netclass": "Touchkey",
         "pattern": "Net-(R5-Pad2)"
       },
       {
         "netclass": "Touchkey",
-        "pattern": "Net-(R6-Pad2)"
+        "pattern": "Net-(R7-Pad2)"
       },
       {
         "netclass": "Touchkey",
         "pattern": "Net-(R8-Pad2)"
-      },
-      {
-        "netclass": "Touchkey",
-        "pattern": "Net-(R9-Pad2)"
       },
       {
         "netclass": "USB",
@@ -1082,130 +844,9 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
-    "bom_export_filename": "",
-    "bom_fmt_presets": [],
-    "bom_fmt_settings": {
-      "field_delimiter": ",",
-      "keep_line_breaks": false,
-      "keep_tabs": false,
-      "name": "CSV",
-      "ref_delimiter": ",",
-      "ref_range_delimiter": "",
-      "string_delimiter": "\""
-    },
-    "bom_presets": [],
-    "bom_settings": {
-      "exclude_dnp": false,
-      "fields_ordered": [
-        {
-          "group_by": false,
-          "label": "Reference",
-          "name": "Reference",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Value",
-          "name": "Value",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": true
-        }
-      ],
-      "filter_string": "",
-      "group_symbols": true,
-      "name": "Grouped By Value",
-      "sort_asc": true,
-      "sort_field": "Reference"
-    },
-    "connection_grid_size": 50.0,
-    "drawing": {
-      "dashed_lines_dash_length_ratio": 12.0,
-      "dashed_lines_gap_length_ratio": 3.0,
-      "default_line_thickness": 6.0,
-      "default_text_size": 50.0,
-      "field_names": [],
-      "intersheets_ref_own_page": false,
-      "intersheets_ref_prefix": "",
-      "intersheets_ref_short": false,
-      "intersheets_ref_show": false,
-      "intersheets_ref_suffix": "",
-      "junction_size_choice": 3,
-      "label_size_ratio": 0.25,
-      "operating_point_overlay_i_precision": 3,
-      "operating_point_overlay_i_range": "~A",
-      "operating_point_overlay_v_precision": 3,
-      "operating_point_overlay_v_range": "~V",
-      "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 0.0,
-      "text_offset_ratio": 0.08
-    },
     "legacy_lib_dir": "",
-    "legacy_lib_list": [],
-    "meta": {
-      "version": 1
-    },
-    "net_format_name": "",
-    "page_layout_descr_file": "",
-    "plot_directory": "./",
-    "spice_adjust_passive_values": false,
-    "spice_current_sheet_as_root": false,
-    "spice_external_command": "spice \"%I\"",
-    "spice_model_current_sheet_as_root": true,
-    "spice_save_all_currents": false,
-    "spice_save_all_dissipations": false,
-    "spice_save_all_voltages": false,
-    "subpart_first_id": 65,
-    "subpart_id_separator": 0
+    "legacy_lib_list": []
   },
-  "sheets": [
-    [
-      "335cda3b-2748-44fc-90c7-68ff0cbf4fea",
-      "Root"
-    ],
-    [
-      "00000000-0000-0000-0000-00005c7e1497",
-      "TubeClock-MCU"
-    ],
-    [
-      "00000000-0000-0000-0000-00005c7e1816",
-      "TubeClock-PowerSupply"
-    ],
-    [
-      "00000000-0000-0000-0000-00005c87272d",
-      "TubeClock-Display"
-    ],
-    [
-      "00000000-0000-0000-0000-00005c7e16b1",
-      "TubeClock-Peripherals"
-    ],
-    [
-      "00000000-0000-0000-0000-00005cb696d3",
-      "TubeClock-GPS"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }

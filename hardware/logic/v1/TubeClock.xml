@@ -161,6 +161,7 @@
       <datasheet>https://industrial.panasonic.com/ww/products/capacitors/polymer-capacitors/os-con/svf/25SVF100M</datasheet>
       <fields>
         <field name="Part Number">25SVF100M</field>
+        <field name="Notes">A768KE107M1VLAE036</field>
       </fields>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/TubeClock-PowerSupply/" tstamps="/5C7E1816/"/>
@@ -211,6 +212,9 @@
     <comp ref="R3">
       <value>56Ω 0.5W</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Notes">ERJ-P06J560V</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/TubeClock-PowerSupply/" tstamps="/5C7E1816/"/>
       <tstamp>5B261F78</tstamp>
@@ -246,7 +250,7 @@
       <footprint>Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Notes">Capacitor, Tantalum, EU 7343 case, polarized</field>
+        <field name="Notes">TR3D107K020C0080, Capacitor, Tantalum, EU 7343 case, polarized</field>
         <field name="SuggestedPart">TPSD107M020R0085</field>
       </fields>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
@@ -258,7 +262,7 @@
       <footprint>TubeClock:L_EPCOS_B82479A1_Handsoldering</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Notes">SMT power inductors</field>
+        <field name="Notes">B82479A1104M000</field>
         <field name="SuggestedPart">Epcos B82479-A1-104M</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
@@ -278,7 +282,7 @@
       <footprint>Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Notes">Capacitor, Tantalum, EU 7343 case, polarized</field>
+        <field name="Notes">TR3D106K035C0300, Capacitor, Tantalum, EU 7343 case, polarized</field>
         <field name="SuggestedPart">TPSD106K035R0300</field>
       </fields>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
@@ -320,7 +324,7 @@
       <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Notes">2A current rating - 1 Watt in a 2010 package</field>
+        <field name="Notes">WSL2010R0500FEA18, 2A current rating - 1 Watt in a 2010 package</field>
         <field name="SuggestedPart">Welwyn LR2010-R05FW</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -332,7 +336,7 @@
       <footprint>Capacitor_SMD:CP_Elec_10x10</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Notes">Capacitor, Electrolytic, polarized</field>
+        <field name="Notes">UUX2E100MNL1GS, Capacitor, Electrolytic, polarized</field>
         <field name="SuggestedPart">EEV-EB2E100Q</field>
       </fields>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
@@ -378,7 +382,7 @@
       <footprint>TubeClock:C_2420_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Notes">Optional</field>
+        <field name="Notes">ECW-U2104KC9, Optional</field>
         <field name="SuggestedPart">ECWU2104KC9</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -395,6 +399,9 @@
     <comp ref="C10">
       <value>100 uF</value>
       <footprint>Capacitor_SMD:CP_Elec_5x5.3</footprint>
+      <fields>
+        <field name="Notes">865080142007</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/TubeClock-PowerSupply/" tstamps="/5C7E1816/"/>
       <tstamp>5CA6B53C</tstamp>
@@ -508,6 +515,7 @@
       <datasheet>https://www.vishay.com/docs/84768/tept5600.pdf</datasheet>
       <fields>
         <field name="Part Number">TEPT5600</field>
+        <field name="Notes">TEPT5600</field>
       </fields>
       <libsource lib="Device" part="Q_Photo_NPN" description="NPN phototransistor, collector/emitter"/>
       <sheetpath names="/TubeClock-MCU/" tstamps="/5C7E1497/"/>
@@ -1237,6 +1245,9 @@
       <value>Conn_01x07</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">PPPC071LFBN-RC</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/TubeClock-GPS/" tstamps="/5CB696D3/"/>
       <tstamp>5C9E16CD</tstamp>

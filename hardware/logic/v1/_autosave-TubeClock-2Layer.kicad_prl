@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "003feff_80000007",
+    "visible_layers": "0001000_00000000",
     "zone_display_mode": 0
   },
   "git": {
@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "TubeClock.kicad_prl",
+    "filename": "TubeClock-2Layer.kicad_prl",
     "version": 3
   },
   "project": {
